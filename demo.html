@@ -221,7 +221,7 @@
 <script>
   AOS.init();
   var pcView = `content="user-scalable=yes, initial-scale=0.25, maximum-scale=1 minimum-scale=0, width=1200px"`
-  var mobileView = `meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"`
+  var mobileView = `content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"`
   var winWidth = window.innerWidth;
   if(winWidth < 641){$('.items').attr('data-aos-delay',0);}
   if(winWidth < 641){$('#viewport').attr('content',mobileView)}else{
