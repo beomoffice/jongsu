@@ -171,10 +171,14 @@ section .tit{
   display: -ms-flexbox;
   display: flex;
 }
-.consulting .tel > *{
+.consulting .tel > div{
   width: 100%;
+  min-width: 600px;
   text-align: center;
+}
+.consulting .tel > div a{
   padding: 1.5rem 0;
+  display: block;
 }
 .consulting .tel p{
   display: inline-block;
@@ -369,6 +373,9 @@ footer .foot_txt ul li{
   .consulting .article .info ul li{
     width: 47%;
     text-align: center;
+  }
+  .consulting .tel > div{
+    min-width: auto;
   }
   .consulting .tel{
     -webkit-box-lines: multiple;
