@@ -1,0 +1,378 @@
+html{font-size: 16px;}
+body{font-family: 'NotoKrR';}
+
+header{
+	width: 100%;
+  box-shadow: 0 1px 1px 0 rgba(65,69,73,0.15);
+  height: 70px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.33);
+  z-index: 10;
+}
+header h1{
+  text-align: left;
+  width: 100%;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.inner{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.visual{
+  width: 100%;
+  height: 640px;
+  background:url('../images/vis4.jpg') no-repeat center center;
+  background-size: cover;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.visual .slogan{
+  color: #eee;
+}
+.visual .slogan h2{
+  font-size: 3rem;
+  font-weight: 500;
+}
+.visual .slogan h2 strong{
+  display: block;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.visual .slogan p{
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.visual img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section{
+  padding:4rem 0 5rem;
+}
+section .tit{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.items_tit{
+  font-size: 1.5rem;
+}
+.business{
+  background: #eee;
+}
+.business .article{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.business .items{
+  width: 23.5%;
+  text-align: center;
+  border-radius: 8px;
+  /*border: 2px solid #eee;*/
+  padding: 2rem 0 3rem;
+  box-shadow: 2px 4px 12px 4px #ddd;
+}
+.business .items:nth-child(1){
+  background: #D3E1E6;
+}
+.business .items:nth-child(2){
+  background: #B4CCD3;
+}
+.business .items:nth-child(3){
+  background: #D3E1E6;
+}
+.business .items:nth-child(4){
+  background: #B4CCD3;
+}
+.business .items span{
+  display: block;
+  padding: 2rem 0
+}
+.business .items ul li{
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 3px 0;
+}
+
+.consulting{
+  padding-bottom: 0;
+}
+.consulting .article{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 4rem;
+}
+.consulting .article .items{
+  width: 100%;
+  text-align: center;
+}
+.consulting .article .items.info{
+  text-align: left;
+  padding-left: 2rem;
+}
+.consulting .article .info ul{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-lines: multiple;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.consulting .article .info ul li{
+  padding: 1rem;
+  box-shadow: 2px 4px 12px 4px #eee;
+  border-radius: 8px;
+  width: 49%;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.consulting .article .map img{
+  width: 270px;
+}
+.consulting .tel{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.consulting .tel > *{
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.consulting .tel p{
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.consulting .tel img{
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.consulting .phone{
+  background: #0b2239;
+  color: #fff;
+}
+.consulting .kakao{
+  background: #fcce00;
+}
+.consulting .phone img{
+  width: 28px;
+  margin-top: -2px;
+}
+.consulting .kakao img{
+  width: 32px;
+}
+
+.procedure{
+  background: #333;
+}
+.procedure .tit{
+  color: #fff;
+}
+.procedure .article{
+  margin: 0 auto;
+  width: 56%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  -webkit-box-lines: multiple;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.procedure .items{
+  width: 45%;
+  text-align: center;
+  border-radius: 8px;
+  /*border: 2px solid #eee;*/
+  padding: 3rem 1rem 2rem;
+  /*box-shadow: 2px 4px 12px 4px #ddd;*/
+  margin-top: 8%;
+  background:#fff;
+  position: relative;
+}
+.procedure .items:nth-child(-n+2){
+  margin-top: 0;
+}
+.procedure .items .num{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background:#C1B39C;
+  color: #fff;
+  line-height: 45px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.procedure .items_tit{
+  color: #3A3D49;
+}
+.procedure .items ul{
+  padding-top: 2rem;
+}
+.procedure .items ul li{
+  font-size: 1.1rem;
+  line-height: 1.3;
+  padding: 3px 0;
+  color: #3c3c3c;
+}
+
+
+footer{
+  padding:3rem 0;
+  background:#333;
+  color: #ccc;
+  text-align: center;
+}
+footer .tit{
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+footer .foot_txt ul li{
+  display: inline-block;
+  padding-right: 8px;
+}
+
+
+
+@media (max-width: 480px){
+  html{
+    font-size: 13px;
+  }
+  header{
+    height: 50px;
+  }
+  header h1{
+    font-size: 1.7rem;
+  }
+  .inner{
+    width: 100%;
+    padding:0 2rem;
+  }
+
+  .visual .slogan h2{
+    font-size: 2rem;
+  }
+  .visual .slogan h2 strong{
+    font-size: 2.5rem;
+  }
+  .visual .slogan p{
+    font-size: 1.3rem;
+  }
+
+  section{
+    padding:2rem 0 4rem;
+  }
+  section .tit{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .business .article{
+    -webkit-box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .business .items{
+    width: 80%;
+    padding: 2rem 1rem 3rem;
+    margin-top: 1rem;
+    margin:1rem auto 0;
+  }
+  .business .items:first-child{
+    margin-top:0;
+  }
+  .business .items span img{
+    width: 54px;
+  }
+  .business .items ul li{
+    line-height: 1.3;
+    padding: 2px 0;
+  }
+
+  .procedure .tit{margin-bottom: 3rem;}
+  .procedure .article{width: 100%;}
+  .procedure .items{
+    width: 100%;
+  }
+  .procedure .items:nth-child(-n+2){
+    margin-top: 8%;
+  }
+  .procedure .items:first-child{
+    margin-top: 0!important;
+  }
+  .procedure .items .num{
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+  }
+
+
+  .consulting .article{
+    -webkit-box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .consulting .article .map img{
+    width: 220px;
+  }
+  .consulting .article .items.info{
+    margin-top: 2rem;
+    padding-left: 0;
+  }
+  .consulting .article .info ul li{
+    width: 47%;
+    text-align: center;
+  }
+  .consulting .tel{
+    -webkit-box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,87 @@
+
+
+/**/
+html, div, span, object, iframe, h1,h2,h3,h4,h5,h6,p,blockquote, pre,abbr,address,cite,code,del,dfn,em,img,
+ins,kbd,q,samp,small,strong, sub, sup, var, b,i,dl,dt,dd,dl,li,ul,fieldset,form,label,legend,table,caption,tbody,thead,tr,th,td,article,aside,details,figcaption,
+footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;	padding:0;	 border:none; }
+
+/* HTML5 새 요소 초기화 */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+* {margin:0;	padding:0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+body{overflow:auto; }
+body{-webkit-text-size-adjust:none; }
+td *, div *, li *, dd *, span *, p *{padding:0; margin:0; border:none;}
+ul, ol, li,	dd	{list-style:none; }
+
+img{border:none;  vertical-align:middle;}
+li img, dd img{vertical-align:middle; border:none ; }
+hr { display:none; height:0; }
+
+/* Link Style */
+a:link		{text-decoration:none; color:inherit;}
+a:visited	{text-decoration:none; color:inherit;}
+a:active	{text-decoration:none; color:inherit;}
+a:hover		{text-decoration:none; color:inherit;}
+
+/* Table Style */
+table.table{border-collapse:collapse;  border-spacing:0; width:100%; table-layout:fixed; }
+table.table td img{vertical-align:middle;}
+table.table	caption { display:none; }
+fieldset { border:0; }
+legend  { display:none; }
+input, select{ vertical-align:middle; }
+
+
+/* tag all font-size set */
+body{
+	font-family: "Nanum Gothic", "나눔고딕" ,"돋움", dotum, sans-serif;
+}
+p,div,ul,li,dl,dt,dd,ol,fieldset,textarea,input,select,table,th,td,address,cite,span,a,em,span
+strong,b,h1,h2,h3,h4,h5,h6{font-family:inherit; color:inherit; line-height:inherit; font-size:inherit;  }
+
+
+/* From Style */
+textarea{padding:5px; border: solid 1px #e0e0e0; background-color:#fff;}
+input{vertical-align:middle; border: 1px solid #e0e0e0;}
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=button],
+input[type=search]{
+-webkit-border-radius:0;
+-webkit-appearance:none;
+}
+
+select{border:1px solid #ddd; text-align:center;
+-webkit-border-radius:0;
+/*
+화살표아이콘숨기기
+select::-ms-expand {display: none;}
+-webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+*/
+}
+
+
+
+.hide{position:absolute; left:-9999px; top:-9999px; font-size:0; line-height:0; height:0; overflow:hidden; }
+.hide1{position:relative; z-index:-1; }
+
+/* 게시판 폰트 */
+.text_area p,
+.text_area strong,
+.text_area a,
+.text_area span,
+.text_area h2{font-size:12px; line-height:1.7; font-family: "나눔고딕" , "Nanum Gothic" ,"돋움", dotum, sans-serif; color:#000;}
+.v_cont p,
+.v_cont strong,
+.v_cont a,
+.v_cont span,
+.v_cont h2{font-size:12px; line-height:1.7; font-family: "나눔고딕" , "Nanum Gothic" ,"돋움", dotum, sans-serif; color:#000;}
+.hy_faqType p,
+.hy_faqType strong,
+.hy_faqType a,
+.hy_faqType span,
+.hy_faqType h2{font-size:12px; line-height:1.7; font-family: "나눔고딕" , "Nanum Gothic" ,"돋움", dotum, sans-serif; color:#000;}
